@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    visibility: visible;
+}
+
+
+.b{
+    border: 1px solid gray;
+}
+
+i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+#WhatsApp-web{
+    height: 100vh;
+}
+
+/* ****************
+aside 
+************************* */
+
+aside{
+    width: 380px;
+}
+
+/* *********** aside header ************* */
+
+.aside-header{
+    background-color: var(--main-color-like-white);
+    height: 35px;
+    padding: 2px 5px ;
+    border-right:1px solid var(--main-color-like-gray) ;
+}
+
+
+.owner-infos .profile-picture img{
+    width: 28px;
+    height: 28px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.aside-action{
+    color: var(--main-color-gray);
+}
+
+/* ************* aside content *************** */
+/* **aside-search-bar** */
+.aside-search-bar{
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--main-color-like-gray);
+}
+.aside-search-bar .search-bar{
+    background-color: var(--main-color-like-white);
+    padding: 2px 12px;
+    border-radius: 8px;
+}
+.aside-search-bar input{
+    height: 26px;
+    background-color: var(--main-color-like-white);
+    font-size: 0.75rem;
+    border: none;
+}
+.aside-search-bar i{
+    font-size: 0.7rem;
+}
+
+.aside-search-bar img{
+    width: 15px;
+    cursor: pointer;
+}
+
+/* **archived-users** */
+.aside-users-infos .archived-users{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.aside-users-infos .archived-users::after{
+    content: "";
+    border-bottom: 1px solid var(--main-color-like-gray);
+    position: absolute;
+    width: 88%;
+    right: 0;
+    bottom: 0;
+}
+.aside-users-infos .archived-users .archived-icon {
+    height: 16px;
+}
+.aside-users-infos .archived-users .archived-icon img{
+    width: 16px;
+    cursor: pointer;
+}
+.aside-users-infos .archived-users .description{
+    font-size: 0.95rem;
+}
+
+.aside-users-infos .archived-users .archived-numbers{
+    color: rgb(7, 210, 7);
+    font-size: 0.7rem;
+    right: 15px ;
+}
+/* **** users-infos-list ****** */
+.users-infos-list{
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+}
+.user-info{
+    padding: 5px 10px;
+}
+.user-info:hover{
+    background-color: var(--main-color-like-white);
+    cursor: pointer;
+}
+.user-info .profile-picture img{
+    width: 40px ;
+    height: 40px;
+    border-radius: 60px;
+}
+
+.user-details .username{
+    font-size: 1.02rem;
+    font-weight: bold;
+}
+.user-details .message{
+    font-size: 0.8rem;
+    color: var(--main-color-gray);
+}
+
+.user-info .user-details .time{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--main-color-gray);
+    right: 15px;
+    top: 16px;
+}
+
+
+/* ****************
+content 
+************************* */
+.content{
+    background-color: var(--main-color-like-white);
+    border-bottom: 5px solid var(--main-color-green);
+}
+
+.content .content-home{
+    width: 420px;
+    text-align: center;
+    color: var(--main-color-gray);
+}
+
+.content .content-image img{
+    width: 240px;
+}
+
+.content .content-title h4{
+    margin: 10px 0;
+}
+
+.content .content-description small{
+    font-size: 0.7rem;
+    display: block;
+    line-height: 1.4;
+}
+
+.content-home-bottom{
+    font-size: 0.65rem;
+    color: var(--main-color-gray);
+    bottom: 25px;
+    left: 44%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .content .content-home{
+        width: auto;
+        padding: 0 5px;
+        
+    }
+    .content-home-bottom{
+        left: 30%;
+    }
+
+    .content .content-image img{
+        width: auto;
+        max-width: 240px;
+    }
+
+    /* **** aside ******* */
+    aside{
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px ) {
+    .content{
+        display: none;
+    }
+    /* ******aside ********* */
+    aside{
+        width: 100%;
+    }
+}
