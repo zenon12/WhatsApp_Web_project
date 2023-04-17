@@ -1,0 +1,21 @@
+
+.aside-actions .aside-action .menu{
+    background-color: var(--main-color-white);
+    color: var(--main-color-black);
+    width: 180px;
+    font-size: 0.9rem;
+    right: -10px;
+    top: 32px;
+    z-index: var(--z-index-menu);
+    box-shadow: 0 8px 16px rgba(0 0 0/20%);
+    border-radius: 2px;
+    user-select: none;
+}
+.aside-actions .aside-action .menu li{
+    padding: 10px;
+}
+.aside-actions .aside-action .menu li:hover{
+    background-color: var(--main-color-like-white);
+    font-weight:bold;
+    cursor: pointer;
+}

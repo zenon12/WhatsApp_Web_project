@@ -7,6 +7,9 @@ flexBox
     display: flex;
 }
 
+.jcfe{
+    justify-content: flex-end;
+}
 .jcc{
     justify-content: center;
 }
@@ -35,10 +38,10 @@ flexBox
     flex-wrap: nowrap;
 }
 
-.column{
+.flex-column{
     flex-direction: column;
 }
-.row{
+.flex-row{
     flex-direction: row;
 }
 
@@ -150,4 +153,9 @@ a{
     text-align: center;
 }
 
+
+p{
+    margin: 0;
+    padding: 0;
+}
 

@@ -1,8 +1,22 @@
 :root{
     --main-color-gray: gray ; 
+    --main-color-teal: teal ; 
+    --main-color-like-blue: lightBlue ; 
+    --main-color-orange: orange ; 
+    --main-color-red:  brown ; 
+    --main-color-purple:  purple ; 
     --main-color-like-gray: #ccc ; 
     --main-color-like-white: #efefef ; 
     --main-color-white: white ; 
-    --main-color-green: rgba(0, 128, 0, 0.64) ; 
+    --main-color-black: black ; 
+    --main-color-green: green ; 
+    --main-color-dark-green: darkgreen; 
+    --main-color-tea-green: #DCF8C6 ; 
+    --main-color-light-blue: #E5F2E5 ; 
+       /* z-index */
+    --z-index-menu: 98 ;
+    --z-index-collapse: 99 ;
+    --z-index-modal: 100 ;
+
 
 }

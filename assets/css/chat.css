@@ -1,0 +1,209 @@
+.content-chat{
+    width: 100%;
+    height: 100%;
+
+}
+/* ********** chat header ************ */
+.chat-header{
+    background-color: var(--main-color-like-white);
+    height: 35px;
+    padding: 2px 10px;
+}
+
+.chat-header .profile-picture{
+    width: 30px;
+    height: 30px;
+}
+.chat-header .profile-picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.chat-header .icon-menu{
+    margin-right: 10px;
+}
+.chat-header .icon-menu i{
+    color: var(--main-color-green);
+}
+
+
+.chat-header .chat-header-right{
+    padding-right: 10px;
+}
+.chat-header .chat-icon i{
+    font-size: 1.01rem;
+}
+
+/* ********** chat body ************ */
+.bg-image{
+    background-image: url("/assets/images/background/bg-chat1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 105px);
+    overflow-y: auto;
+}
+
+.chat-body{
+    padding: 10px 50px;
+}
+.owner-messages,.user-messages{
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.user-messages::before{
+    content: "";
+    border: 10px solid transparent;
+    border-left: 15px solid white;
+    position: absolute;
+    top: -8px ;
+    left: 0;
+    transform: rotate(-35deg);
+    z-index: 96;
+}
+.owner-messages::after{
+    content: "";
+    border: 10px solid transparent;
+    border-right: 15px solid var(--main-color-tea-green);
+    position: absolute;
+    top: -8px ;
+    right: 0;
+    transform: rotate(35deg);
+}
+/* ***
+message text
+************* */
+.message-text{
+    max-width: 480px ;
+    text-align: justify;
+    margin-bottom: 3px;
+    background-color: var(--main-color-white);
+    padding: 6px 6px 15px 6px;
+    border-radius:10px;
+    border: 1px solid var(--main-color-like-gray);
+}
+/* **
+message image
+*************** */
+.message-image{
+    margin-bottom: 3px;
+}
+.message-image .icon-share i{
+    padding: 7px ;
+    background-color: var(--main-color-gray);
+    border-radius: 20px;
+    color: var(--main-color-white);
+    font-size: 1.02rem;
+}
+
+.owner-messages .message-text,
+.owner-messages .image-details{
+    background-color: var(--main-color-tea-green);
+}
+.image-details{
+    width: 400px;
+    padding: 2px;
+    border-radius: 10px;
+}
+.image-details .image {
+    height: 270px;
+}
+.image-details .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.image-details .image-description{
+    padding: 6px;
+}
+
+.meta-data{
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--main-color-gray);
+    bottom: 3px ;
+    right: 5px;
+}
+
+.on-image{
+    color: var(--main-color-white);
+}
+
+
+
+/* ************ footer ****************** */
+
+.chat-footer{
+    background-color: var(--main-color-like-white);
+    padding: 6px 15px;
+}
+
+.chat-footer .chat-input input{
+    width: 99%;
+    height: 28px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05rem;
+}
+
+
+
+
+
+
+@media  screen and (max-width:1060px ) {
+    .chat-body{
+        padding: 10px 10px;
+    }
+
+    /* ******
+    message text 
+    **************** */
+    .message-text{
+        max-width: 380px ;
+        font-size: 0.95rem;
+    }
+
+    /* ******
+    message image 
+    **************** */
+    .image-details{
+        width: 250px;
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .image-details .image {
+        height: 220px;
+    }
+}
+
+
+@media  screen and (max-width:650px ) {
+    .chat-body{
+        padding: 10px 5px;
+    }
+
+    /* ******
+    message text 
+    **************** */
+    .message-text{
+        max-width: 98% ;
+        font-size: 0.89rem;
+    }
+    
+    /* **********
+    message image
+    ***************** */
+    .image-details{
+        width: 210px;
+    }
+    .image-details .image {
+        height: 210px;
+    }
+}
+@media  screen and (max-width:280px ) {
+   .header-details .username{
+      display: none;
+   }
+}

@@ -14,23 +14,466 @@
 </head>
 
 <body>
+    <div id="whatsApp-collapse" class="absolute">
+        <div class="whatsApp-profile collapse">
+            <header class="flex gap-25">
+                <div class="header-icon">
+                    <i class="fa-solid fa-arrow-left close-collapse"></i>
+                </div>
+                <div class="header-description">
+                    Profile
+                </div>
+            </header>
+            <div class="body">
+                <div class="body-top flex gap-25">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profile_picture/bonclay.jpg" alt="">
+                    </div>
+                    <div class="update-icon">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+                </div>
+                <div class="body-bottom">
+                    <div class="owner-data-list">
+                        <div class="data-name flex gap-15">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-image-portrait"></i>
+                            </div>
+                            <div class="data-description">
+                                <div class="fullname">
+                                    <h4>Mr.2 Bon Clay</h4>
+                                </div>
+                                <div class="profile-info">
+                                    Ce nom sera visible par vos client(e)s WhatsApp et pourra être
+                                    modifié à partir de l'application sur votre appareil mobile.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-shop"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Formateur sur la plateforme Mudey</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-tag"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Finance, Formation</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Adresse professionnelle</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Horaires d'ouverture</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Adresse e-mail</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                        <div class="data-item flex gap-15 aic">
+                            <div class="data-icon">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </div>
+                            <div class="data-description flex-1">
+                                <span class="data">Site web</span>
+                                <input type="text" name="updata-input" id="updata-input" class="none">
+                            </div>
+                            <div class="data-update-icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="whatsApp-etiquettes collapse">
+            <header class="flex gap-25">
+                <div class="header-icon">
+                    <i class="fa-solid fa-arrow-left close-collapse"></i>
+                </div>
+                <div class="header-description">
+                    Etiquettes
+                </div>
+            </header>
+            <div class="body">
+                <div class="etiquettes-item flex aic gap-10">
+                    <div class="etiquettes-icon">
+                        <i class="fa-regular fa-square-caret-right"></i>
+                    </div>
+                    <div class="etiquettes-details flex-1">
+                        <h4>Nouveau client</h4>
+                        <span class="article">0 article</span>
+                    </div>
+                </div>
+                <div class="etiquettes-item flex aic gap-10">
+                    <div class="etiquettes-icon">
+                        <i class="fa-regular fa-square-caret-right"></i>
+                    </div>
+                    <div class="etiquettes-details flex-1">
+                        <h4>Nouvelle commande</h4>
+                        <div class="article">
+                            <span class="number">0</span>
+                            <span class="name">article</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="etiquettes-item flex aic gap-10">
+                    <div class="etiquettes-icon">
+                        <i class="fa-regular fa-square-caret-right"></i>
+                    </div>
+                    <div class="etiquettes-details flex-1">
+                        <h4>Paiment en attente</h4>
+                        <div class="article">
+                            <span class="number">0</span>
+                            <span class="name">article</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="etiquettes-item flex aic gap-10">
+                    <div class="etiquettes-icon">
+                        <i class="fa-regular fa-square-caret-right"></i>
+                    </div>
+                    <div class="etiquettes-details flex-1">
+                        <h4>Payé</h4>
+                        <div class="article">
+                            <span class="number">0</span>
+                            <span class="name">article</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="etiquettes-item flex aic gap-10">
+                    <div class="etiquettes-icon">
+                        <i class="fa-regular fa-square-caret-right"></i>
+                    </div>
+                    <div class="etiquettes-details flex-1">
+                        <h4>Commande terminée</h4>
+                        <div class="article">
+                            <span class="number">0</span>
+                            <span class="name">article</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="whatsApp-contact collapse">
+            <header class="flex gap-25">
+                <div class="header-icon">
+                    <i class="fa-solid fa-arrow-left close-collapse"></i>
+                </div>
+                <div class="header-description">
+                    Nouvelle discussion
+                </div>
+            </header>
+            <div class="body">
+                <div class="contact-search-bar flex aic gap-15">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="findContact" id="findContact" class="flex-1"
+                        placeholder="Rechercher des contacts">
+                </div>
+                <div class="users-infos-list">
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-info flex gap-10 relative aic">
+                        <div class="profile-picture">
+                            <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                        </div>
+                        <div class="user-details flex-1">
+                            <div class="username">
+                                Kamado Tandjiiro
+                            </div>
+                            <div class="user-meta-data">
+                                Salut ! J'utilise WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="whatsApp-settings collapse">
+            <header class="flex gap-25">
+                <div class="header-icon">
+                    <i class="fa-solid fa-arrow-left close-collapse"></i>
+                </div>
+                <div class="header-description">
+                    Paramètres
+                </div>
+            </header>
+            <div class="body">
+                <div class="body-header flex aic gap-15">
+                    <div class="profile-picture">
+                        <img src="/assets/images/profile_picture/bonclay.jpg" alt="">
+                    </div>
+                    <div class="owner-details">
+                        <div class="fullname">
+                            <h3>Mr.2 Bon Clay</h3>
+                        </div>
+                        <div class="owner-meta-data">
+                            Salut ! J'utilise WhatsApp.
+                        </div>
+                    </div>
+                </div>
+                <div class="body-content">
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Notifications
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Confidentialité
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Securité
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Thème
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-regular fa-image"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Fond d'écran de la discussion
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Demander les informations du compte
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Raccourcis clavier
+                        </div>
+                    </div>
+                    <div class="settings-item flex aic gap-15">
+                        <div class="settings-icon">
+                            <i class="fa-solid fa-circle-question"></i>
+                        </div>
+                        <div class="settings-description flex-1">
+                            Aide
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="WhatsApp-web" class="flex">
         <aside id="userfullBoard">
             <div class="aside-header flex aic">
                 <div class="owner-infos flex-2">
                     <div class="profile-picture flex aic">
-                        <img src="/assets/images/profile_picture/1675001720833.jpg" alt="">
+                        <img src="/assets/images/profile_picture/1675001720833.jpg" class="open-collapse" alt="">
                     </div>
                 </div>
                 <div class="aside-actions flex jcse flex-1">
                     <div class="aside-action">
-                        <i class="fa-solid fa-arrows-spin"></i>
+                        <i class="fa-solid fa-arrows-spin open-collapse"></i>
                     </div>
                     <div class="aside-action">
-                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-message open-collapse"></i>
                     </div>
-                    <div class="aside-action">
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <div class="aside-action relative">
+                        <i class="fa-solid fa-ellipsis-vertical" id="menu-collapse"></i>
+                        <ul class="menu absolute none" id="sub-menu">
+                            <li class="menu-item">Nouveau groupe</li>
+                            <li class="menu-item">Nouvelle communauté</li>
+                            <li class="menu-item">Message importants</li>
+                            <li class="menu-item open-collapse">Paramètres</li>
+                            <li class="menu-item" id="modal-collapse">Déconnexion</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -39,10 +482,10 @@
                     <div class="search-bar flex aic flex-1 gap-10">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input type="search" name="search" id="search" class="flex-1"
-                        placeholder="Rechercher ou démarrer une nouvelle discussion">
+                            placeholder="Rechercher ou démarrer une nouvelle discussion">
                     </div>
                     <div class="icon-bars-filter">
-                        <img src="/assets/images/icon/bars-filter-svgrepo-com.png"  alt="">
+                        <img src="/assets/images/icon/bars-filter-svgrepo-com.png" alt="">
                     </div>
                 </div>
                 <div class="aside-users-infos">
@@ -53,10 +496,10 @@
                         <div class="description">Archivées</div>
                         <div class="archived-numbers absolute">6</div>
                     </div>
-                    <div class="users-infos-list">
-                        <div class="user-info flex gap-10 relative aic">
+                    <div class="users-infos-list" id="users-list">
+                        <!-- <div class="user-info flex gap-10 relative aic active">
                             <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
+                                <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
                             </div>
                             <div class="user-details">
                                 <div class="username">
@@ -67,152 +510,12 @@
                                 </div>
                                 <div class="time absolute">16:30</div>
                             </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
-                        <div class="user-info flex gap-10 relative aic">
-                            <div class="profile-picture">
-                                <img src="/assets/images/profile_picture/web-design-2906159.jpg" width="50px" alt="">
-                            </div>
-                            <div class="user-details">
-                                <div class="username">
-                                    Kamado Tandjiiro
-                                </div>
-                                <div class="message">
-                                    je veux que nesuko retrouve son humanilité.
-                                </div>
-                                <div class="time absolute">16:30</div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </aside>
-        <div class="content flex-1 flex jcc aic relative">
+        <div class="content flex-1 flex jcc aic relative" id="content">
             <div class="content-home">
                 <div class="content-home-center">
                     <div class="content-image">
@@ -233,8 +536,135 @@
                     Chiffré de bout en bout
                 </div>
             </div>
+            <div class="content-chat none">
+                <div class="chat-header flex aic jcsb">
+                    <div class="chat-header-left flex aic gap-10">
+                        <div class="icon-menu none" id="collapse-menu-mobile">
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="header-details flex aic gap-10">
+                            <!-- <div class="profile-picture">
+                                <img src="/assets/images/profile_picture/tanjiiro_profile.jpg" alt="">
+                            </div>
+                            <div class="username">
+                                Kamado Tanjiiro
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="chat-header-right flex gap-20 aic">
+                        <div class="chat-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="chat-icon">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-body bg-image">
+                    <div class="user-messages">
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.</p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                    </div>
+                    <div class="owner-messages flex flex-column aife">
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.
+                            </p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                        <div class="message-image flex aic gap-10 relative">
+                            <div class="icon-share">
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                            <div class="image-details">
+                                <div class="image">
+                                    <img src="/assets/images/profile_picture/workspace-2443050_1920.jpg" alt="">
+                                </div>
+                                <div class="meta-data absolute on-image">15:30</div>
+                            </div>
+                        </div>
+                        <div class="message-image flex aic gap-10 relative">
+                            <div class="icon-share">
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                            <div class="image-details">
+                                <div class="image">
+                                    <img src="/assets/images/profile_picture/workspace-2443050_1920.jpg" alt="">
+                                </div>
+                                <div class="image-description">
+                                    En html et css
+                                </div>
+                                <div class="meta-data absolute">15:30</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-messages">
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.</p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.</p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.</p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                    </div>
+                    <div class="owner-messages flex flex-column aife">
+                        <div class="message-text relative">
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut
+                                reiciendis voluptates nulla! Delectus id nulla, repudiandae quam suscipit architecto
+                                ipsum aut? Ducimus nam sapiente molestias maxime error impedit blanditiis.</p>
+                            <div class="meta-data absolute">15:30</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-footer flex gap-15 aic">
+                    <div class="chat-action">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+                    <div class="chat-action">
+                        <i class="fa-solid fa-paperclip"></i>
+                    </div>
+                    <div class="chat-input flex-1">
+                        <input type="text" id="input-message" placeholder="Taper un message">
+                    </div>
+                    <div class="chat-action">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="whatsApp-modal absolute none" id="modal">
+        <div class="modal-title">
+            <h4>Se déconnecter?</h4>
+        </div>
+        <div class="modal-content">
+            Voulez-vous vraiment vous déconnecter?
+        </div>
+        <div class="modal-footer flex gap-5 jcfe">
+            <button class="btn-cancel">Annuler</button>
+            <button class="btn-exit">Deconnexion</button>
+        </div>
+    </div>
+    <div class="overlay absolute none" id="overlay"></div>
+
+
+    <script type="module" src="/assets/js/main.js"></script>
 </body>
 
 </html>

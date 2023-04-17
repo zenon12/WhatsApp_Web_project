@@ -13,12 +13,18 @@ body{
 
 i{
     font-size: 1.2rem;
+    color: var(--main-color-gray);
     cursor: pointer;
 }
 
 
+
 #WhatsApp-web{
     height: 100vh;
+}
+
+.active{
+    background-color: var(--main-color-like-white);
 }
 
 /* ****************
@@ -44,10 +50,18 @@ aside{
     height: 28px;
     border-radius: 40px;
     cursor: pointer;
-}
+}   
 
 .aside-action{
     color: var(--main-color-gray);
+}
+.aside-action i{
+    padding: 7px;
+    border-radius: 20px;
+    
+}
+.aside-action i:hover{
+    background-color: white;
 }
 
 /* ************* aside content *************** */
@@ -117,13 +131,14 @@ aside{
     background-color: var(--main-color-like-white);
     cursor: pointer;
 }
-.user-info .profile-picture img{
+.profile-picture img{
     width: 40px ;
     height: 40px;
     border-radius: 60px;
+    cursor: pointer;
 }
 
-.user-details .username{
+.username{
     font-size: 1.02rem;
     font-weight: bold;
 }
@@ -145,8 +160,8 @@ aside{
 content 
 ************************* */
 .content{
-    background-color: var(--main-color-like-white);
     border-bottom: 5px solid var(--main-color-green);
+    background-color: var(--main-color-like-white);
 }
 
 .content .content-home{
@@ -203,6 +218,9 @@ content
 @media screen and (max-width: 600px ) {
     .content{
         display: none;
+    }
+    .content .content-chat .icon-menu{
+        display: block;
     }
     /* ******aside ********* */
     aside{
